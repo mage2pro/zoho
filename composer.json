@@ -3,7 +3,7 @@
 	,"version": "0.0.1"
 	,"description": "A common Zoho applications library for my «Zoho CRM», «Zoho Inventory», and «Zoho Books» Magento 2 extensions."
 	,"type": "magento2-module"
-	,"homepage": "https://github.com/mage2pro/zoho"
+	,"homepage": "https://mage2.pro/tags/zoho"
 	,"license": "proprietary"
 	,"authors": [{
 		"name": "Dmitry Fedyuk",

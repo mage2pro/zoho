@@ -13,4 +13,12 @@
 	}]
 	,"require": {"mage2pro/core": ">=2.7.34"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Zoho\\": ""}}
+	,"keywords": [
+		"Zoho"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
 }

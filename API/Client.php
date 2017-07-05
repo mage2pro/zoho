@@ -1,22 +1,16 @@
 <?php
 namespace Df\Zoho\API;
-use Df\Core\Exception as DFE;
-use Dfe\ZohoBooks\Settings as S;
-use Zend_Http_Client as C;
+use \Df\Zoho\Settings as S;
 /**
  * 2017-07-05
- * @see \Dfe\ZohoBooks\API\Client 
- * @see \Dfe\ZohoInventory\API\Client
+ * @see \Df\Zoho\API\BI\Client
  */
 abstract class Client extends \Df\API\Client {
 	/**
-	 * 2017-07-05
-	 * @override
-	 * @see \Df\API\Client::headers()
-	 * @used-by \Df\API\Client::p()
-	 * @return array(string => string)
+	 * 2017-07-06
+	 * @return S
 	 */
-	final protected function headers() {return ['Authorization' => 'Zoho-authtoken ' . S::s()->token()];}
+	final protected function ss() {return S::convention($this, S::class);}
 
 	/**
 	 * 2017-07-05

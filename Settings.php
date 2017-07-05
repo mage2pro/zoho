@@ -10,6 +10,7 @@ namespace Df\Zoho;
 abstract class Settings extends \Df\Config\Settings {
 	/**
 	 * 2017-07-05 «Authentication Token
+	 * @used-by \Df\Zoho\API\BI\Client::headers()
 	 * @return string
 	 */
 	final function token() {return $this->p();}
@@ -22,6 +23,6 @@ abstract class Settings extends \Df\Config\Settings {
 	 * @return string
 	 */
 	final protected function prefix() {return dfc($this, function() {return
-		'df_zoho/' . df_trim_text_left(strtolower(df_class_second($this)), 'zoho')
+		'df_zoho/' . df_zoho_app_lc($this)
 	;});}
 }

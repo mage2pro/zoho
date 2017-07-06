@@ -17,7 +17,7 @@ function df_zoho_app($c) {return dfcf(function($c) {return df_assert_in(df_resul
  * «\Dfe\ZohoBooks\API\Client» => «books»
  * «\Dfe\ZohoCRM\T\Basic» => «crm»
  * «\Dfe\ZohoInventory\Settings» => «inventory»
- * @used-by \Df\Zoho\API\BI\Client::uriBase()
+ * @used-by \Df\ZohoBI\API\Client::uriBase()
  * @used-by \Df\Zoho\Settings::prefix()
  * @param string|object $c
  * @return string

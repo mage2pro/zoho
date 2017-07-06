@@ -1,9 +1,9 @@
 <?php
 namespace Df\Zoho\API;
-use \Df\Zoho\Settings as S;
+use Df\Zoho\Settings as S;
 /**
  * 2017-07-05
- * @see \Df\Zoho\API\BI\Client
+ * @see \Df\ZohoBI\API\Client
  */
 abstract class Client extends \Df\API\Client {
 	/**
@@ -21,4 +21,16 @@ abstract class Client extends \Df\API\Client {
 	 * @return string
 	 */
 	protected function responseFilterC() {return \Df\API\Response\Filter\JSON::class;}
+
+	/**
+	 * 2017-07-06
+	 * @param string|object $m
+	 * @param string $path
+	 * @param array(string => mixed) $p [optional]
+	 * @param string|null $method [optional]
+	 * @return self
+	 */
+	final static function i($m, $path, array $p = [], $method = null) {return df_new(
+		df_con_heir($m, self::class), $path, $p, $method
+	);}
 }

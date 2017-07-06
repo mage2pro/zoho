@@ -5,6 +5,7 @@
  * «\Dfe\ZohoCRM\T\Basic» => «CRM»
  * «\Dfe\ZohoInventory\Settings» => «Inventory»
  * @used-by df_zoho_app_lc()
+ * @used-by \Df\ZohoBI\API\Validator::title()
  * @param string|object $c
  * @return string
  */

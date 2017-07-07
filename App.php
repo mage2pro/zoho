@@ -32,7 +32,7 @@ abstract class App {
 	final function titleLc() {return strtolower($this->title());}
 
 	/**
-	 * 2017-07-06.
+	 * 2017-07-07
 	 * @used-by df_zoho_app()
 	 * @param string|object $c
 	 * @return self

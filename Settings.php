@@ -11,6 +11,7 @@ abstract class Settings extends \Df\Config\Settings {
 	 * 2017-07-05 «Authentication Token
 	 * @used-by \Df\ZohoBI\API\Client::headers()
 	 * @used-by \Df\ZohoBI\Source\Organization::isRequirementMet()
+	 * @used-by \Dfe\ZohoCRM\API\Client::commonParams()
 	 * @return string
 	 */
 	final function token() {return $this->p();}

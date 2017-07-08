@@ -4,6 +4,7 @@ use Df\Zoho\Settings as S;
 /**
  * 2017-07-05
  * @see \Df\ZohoBI\API\Client
+ * @see \Dfe\ZohoCRM\API\Client
  */
 abstract class Client extends \Df\API\Client {
 	/**
@@ -17,9 +18,10 @@ abstract class Client extends \Df\API\Client {
 
 	/**
 	 * 2017-07-06
+	 * @final I do not use the PHP «final» keyword here to allow refine the return type using PHPDoc.
 	 * @return S
 	 */
-	final protected function ss() {return S::convention($this, S::class);}
+	protected function ss() {return S::convention($this, S::class);}
 
 	/**
 	 * 2017-07-06

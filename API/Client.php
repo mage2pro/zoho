@@ -14,7 +14,7 @@ abstract class Client extends \Df\API\Client {
 	 * @used-by \Df\API\Client::__construct()
 	 * @see \Df\ZohoBI\API\Client::_construct()
 	 */
-	final protected function _construct() {parent::_construct(); $this->addFilterJsonDecode();}
+	final protected function _construct() {parent::_construct(); $this->resJson();}
 
 	/**
 	 * 2017-07-06

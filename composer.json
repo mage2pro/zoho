@@ -1,7 +1,7 @@
 {
 	"name": "mage2pro/zoho"
 	,"version": "0.0.9"
-	,"description": "A common Zoho applications library for my «Zoho CRM», «Zoho Inventory», and «Zoho Books» Magento 2 extensions."
+	,"description": "A common Zoho applications library for my «Zoho CRM», «Zoho Inventory», and «Zoho Books» Magento 2 extensions"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/tags/zoho"
 	,"license": "proprietary"

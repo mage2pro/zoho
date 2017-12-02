@@ -26,7 +26,7 @@ abstract class App {
 
 	/**
 	 * 2017-07-06 It returns one of the following strings: «books», «crm», «inventory»
-	 * @used-by \Df\ZohoBI\API\Client::uriBase()
+	 * @used-by \Df\ZohoBI\API\Client::urlBase()
 	 * @used-by \Df\Zoho\Settings::prefix()
 	 * @return string
 	 */

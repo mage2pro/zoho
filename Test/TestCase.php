@@ -1,8 +1,8 @@
 <?php
-namespace Df\Zoho\T;
+namespace Df\Zoho\Test;
 /**
  * 2017-07-05
- * @see \Df\Zoho\T\Basic
+ * @see \Df\Zoho\Test\Basic
  * @see \Df\ZohoBI\T\TestCase
  * @see \Dfe\ZohoCRM\T\TestCase
  */

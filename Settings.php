@@ -21,9 +21,8 @@ abstract class Settings extends \Df\Config\Settings {
 	 * @override
 	 * @see \Df\Config\Settings::prefix()
 	 * @used-by \Df\Config\Settings::v()
-	 * @return string
 	 */
-	final protected function prefix() {return dfc($this, function() {return
+	final protected function prefix():string {return dfc($this, function() {return
 		'df_zoho/' . df_zoho_app($this)->titleLc()
 	;});}
 }

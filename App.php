@@ -15,7 +15,7 @@ abstract class App {
 
 	/**
 	 * 2017-07-06 It returns one of the following strings: «Books», «CRM», «Inventory».
-	 * @used-by titleLc()
+	 * @used-by self::titleLc()
 	 * @used-by \Df\ZohoBI\API\Validator::title()
 	 * @return string
 	 */

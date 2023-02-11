@@ -11,7 +11,7 @@ abstract class App {
 	 * @final I do not use the PHP «final» keyword here to allow refine the return type using PHPDoc.
 	 * @return Settings
 	 */
-	function ss() {return dfs($this);}
+	function ss():Settings {return dfs($this);}
 
 	/**
 	 * 2017-07-06 It returns one of the following strings: «Books», «CRM», «Inventory».

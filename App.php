@@ -16,9 +16,8 @@ abstract class App {
 	 * 2017-07-06 It returns one of the following strings: «Books», «CRM», «Inventory».
 	 * @used-by self::titleLc()
 	 * @used-by \Df\ZohoBI\API\Validator::title()
-	 * @return string
 	 */
-	final function title() {return dfc($this, function() {return df_assert_in(df_result_sne(
+	final function title():string {return dfc($this, function() {return df_assert_in(df_result_sne(
 		# 2017-07-09 An alternative implementation is: df_explode_camel(df_class_second($this))[1]
 		df_trim_text_left(df_class_second($this), 'Zoho')
 	), ['Books', 'CRM', 'Inventory']);});}

@@ -26,9 +26,8 @@ abstract class App {
 	 * 2017-07-06 It returns one of the following strings: «books», «crm», «inventory»
 	 * @used-by \Df\ZohoBI\API\Client::urlBase()
 	 * @used-by \Df\Zoho\Settings::prefix()
-	 * @return string
 	 */
-	final function titleLc() {return strtolower($this->title());}
+	final function titleLc():string {return strtolower($this->title());}
 
 	/**
 	 * 2017-07-07

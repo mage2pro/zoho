@@ -9,7 +9,6 @@ abstract class App {
 	/**
 	 * 2017-07-06
 	 * @final I do not use the PHP «final» keyword here to allow refine the return type using PHPDoc.
-	 * @return Settings
 	 */
 	function ss():Settings {return dfs($this);}
 

@@ -33,7 +33,6 @@ abstract class App {
 	 * 2017-07-07
 	 * @used-by df_zoho_app()
 	 * @param string|object $c
-	 * @return self
 	 */
-	final static function s($c) {return dfs_con($c);}
+	final static function s($c):self {return dfs_con($c);}
 }

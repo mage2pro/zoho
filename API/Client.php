@@ -24,6 +24,7 @@ abstract class Client extends \Df\API\Client {
 
 	/**
 	 * 2017-07-06
+	 * @used-by \Df\ZohoBI\API\Facade::p()
 	 * @param string|object $m
 	 * @param array(string => mixed) $p [optional]
 	 */

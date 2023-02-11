@@ -25,10 +25,9 @@ abstract class Client extends \Df\API\Client {
 	/**
 	 * 2017-07-06
 	 * @param string|object $m
-	 * @param string $path
 	 * @param array(string => mixed) $p [optional]
 	 */
-	final static function i($m, $path, array $p = [], string $method = ''):self {return df_new(
+	final static function i($m, string $path, array $p = [], string $method = ''):self {return df_new(
 		df_con_heir($m, self::class), $path, $p, $method
 	);}
 }

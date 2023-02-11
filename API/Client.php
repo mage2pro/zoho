@@ -19,9 +19,8 @@ abstract class Client extends \Df\API\Client {
 	/**
 	 * 2017-07-06
 	 * @final I do not use the PHP «final» keyword here to allow refine the return type using PHPDoc.
-	 * @return S
 	 */
-	protected function ss() {return dfs($this);}
+	protected function ss():S {return dfs($this);}
 
 	/**
 	 * 2017-07-06

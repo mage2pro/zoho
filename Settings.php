@@ -1,16 +1,16 @@
 <?php
-namespace Df\Zoho;
+namespace Dfe\Zoho;
 /**
  * 2017-07-05
- * @see \Df\ZohoBI\Settings
+ * @see \Dfe\ZohoBI\Settings
  * @see \Dfe\ZohoBooks\Settings
  * @method static Settings s()
  */
 abstract class Settings extends \Df\Config\Settings {
 	/**
 	 * 2017-07-05 «Authentication Token
-	 * @used-by \Df\ZohoBI\API\Client::headers()
-	 * @used-by \Df\ZohoBI\Source\Organization::isRequirementMet()
+	 * @used-by \Dfe\ZohoBI\API\Client::headers()
+	 * @used-by \Dfe\ZohoBI\Source\Organization::isRequirementMet()
 	 * @used-by \Dfe\ZohoCRM\API\Client::commonParams()
 	 */
 	final function token():string {return $this->p();}

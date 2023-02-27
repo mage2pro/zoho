@@ -17,7 +17,7 @@ So, if you have installed `mage2pro/core`, but do not have installed any Mage2.P
 			<label>Zoho</label>
 			<class>separator-top</class>
 			<!-- 2015-10-05 https://mage2.pro/t/114 -->
-			<resource>Df_Zoho::config</resource>
+			<resource>Dfe_Zoho::config</resource>
 		</section>
 	</system>
 </config>

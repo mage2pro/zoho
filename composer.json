@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/zoho"
-	,"version": "0.2.0"
+	,"version": "0.2.1"
 	,"description": "A common Zoho applications library for my «Zoho CRM», «Zoho Inventory», and «Zoho Books» Magento 2 extensions"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/tags/zoho"
@@ -12,7 +12,7 @@
 		"role": "Developer"
 	}]
 	,"require": {"mage2pro/core": ">=3.6.5"}
-	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Zoho\\": ""}}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Zoho\\": ""}}
 	,"keywords": [
 		"Zoho"
 		,"eCommerce"

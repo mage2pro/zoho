@@ -1,5 +1,5 @@
 <?php
-namespace Df\Zoho\Test;
+namespace Dfe\Zoho\Test;
 # 2017-07-05
 final class Basic extends TestCase {
 	/** 2017-07-05 @test */

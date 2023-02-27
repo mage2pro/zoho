@@ -1,8 +1,8 @@
 <?php
-namespace Df\Zoho;
+namespace Dfe\Zoho;
 /**
  * 2017-07-06
- * @see \Df\ZohoBI\App
+ * @see \Dfe\ZohoBI\App
  * @see \Dfe\ZohoCRM\App
  */
 abstract class App {
@@ -15,7 +15,7 @@ abstract class App {
 	/**
 	 * 2017-07-06 It returns one of the following strings: «Books», «CRM», «Inventory».
 	 * @used-by self::titleLc()
-	 * @used-by \Df\ZohoBI\API\Validator::title()
+	 * @used-by \Dfe\ZohoBI\API\Validator::title()
 	 */
 	final function title():string {return dfc($this, function():string {return df_assert_in(df_result_sne(
 		# 2017-07-09 An alternative implementation is: df_explode_camel(df_class_second($this))[1]
@@ -24,8 +24,8 @@ abstract class App {
 
 	/**
 	 * 2017-07-06 It returns one of the following strings: «books», «crm», «inventory»
-	 * @used-by \Df\ZohoBI\API\Client::urlBase()
-	 * @used-by \Df\Zoho\Settings::prefix()
+	 * @used-by \Dfe\ZohoBI\API\Client::urlBase()
+	 * @used-by \Dfe\Zoho\Settings::prefix()
 	 */
 	final function titleLc():string {return strtolower($this->title());}
 

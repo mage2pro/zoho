@@ -1,9 +1,9 @@
 <?php
-namespace Df\Zoho\API;
-use Df\Zoho\Settings as S;
+namespace Dfe\Zoho\API;
+use Dfe\Zoho\Settings as S;
 /**
  * 2017-07-05
- * @see \Df\ZohoBI\API\Client
+ * @see \Dfe\ZohoBI\API\Client
  * @see \Dfe\ZohoCRM\API\Client
  */
 abstract class Client extends \Df\API\Client {
@@ -12,7 +12,7 @@ abstract class Client extends \Df\API\Client {
 	 * @override
 	 * @see \Df\API\Client::_construct()
 	 * @used-by \Df\API\Client::__construct()
-	 * @see \Df\ZohoBI\API\Client::_construct()
+	 * @see \Dfe\ZohoBI\API\Client::_construct()
 	 */
 	final protected function _construct() {parent::_construct(); $this->resJson();}
 
@@ -24,7 +24,7 @@ abstract class Client extends \Df\API\Client {
 
 	/**
 	 * 2017-07-06
-	 * @used-by \Df\ZohoBI\API\Facade::p()
+	 * @used-by \Dfe\ZohoBI\API\Facade::p()
 	 * @param string|object $m
 	 * @param array(string => mixed) $p [optional]
 	 */
